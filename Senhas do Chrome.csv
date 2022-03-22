@@ -1,0 +1,9 @@
+name,url,username,password
+github.com,https://github.com/login,citpcgo@gmail.com,Ditpcgo21@
+localhost,http://localhost:3000/login,BrunoG,DhUh#%Ac
+localhost,http://localhost:3000/,admin@email.com,admin1234
+localhost,http://localhost:3000/login,brvidal@bol.com.br,123456
+localhost,http://localhost:3000/login,emal@email.com,123456
+oraculo-frontend.herokuapp.com,https://oraculo-frontend.herokuapp.com/,admin@email.com,admin1234
+oraculo-frontend.herokuapp.com,https://oraculo-frontend.herokuapp.com/login,brvidal@bol.com.br,123456
+oraculo-frontend.herokuapp.com,https://oraculo-frontend.herokuapp.com/login,emal@email.com,123456

@@ -1,0 +1,314 @@
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d79d"),
+	"name" : "ADVOGADO (IQUEGO)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d79e"),
+	"name" : "AGENTE ADMINISTRATIVO B VI - AGECOM"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d79f"),
+	"name" : "AGENTE ADMINISTRATIVO EDUCACIONAL DE APOIO"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7a0"),
+	"name" : "AGENTE AUXILIAR DE ADMINISTRAÇÃO II (AGECOM)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7a1"),
+	"name" : "AGENTE AUXILIAR POLICIAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7a2"),
+	"name" : "AGENTE DE NECROTOMIA - TOCANTINS"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7a3"),
+	"name" : "AGENTE DE POLÍCIA DA 1ª CLASSE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7a4"),
+	"name" : "AGENTE DE POLÍCIA DA 2ª CLASSE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7a5"),
+	"name" : "AGENTE DE POLÍCIA DA 3ª CLASSE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7a6"),
+	"name" : "AGENTE DE POLÍCIA DA CLASSE ESPECIAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7a7"),
+	"name" : "AGENTE DE POLÍCIA DA CLASSE ESPECIAL I"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7a8"),
+	"name" : "AGENTE DE POLÍCIA DO TOCANTINS - CLASSE ESPECIAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7a9"),
+	"name" : "AGENTE DE POLÍCIA JUDICIÁRIA - SSP/MATO GROSSO DO SUL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7aa"),
+	"name" : "AGENTE DE SEGURANÇA PRISIONAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7ab"),
+	"name" : "AGENTE DE VIGILÂNCIA"
+}
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7ac"), "name" : "AGENTE POLICIAL" }
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7ad"),
+	"name" : "ANALISTA DE COMUNICAÇÃO"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7ae"),
+	"name" : "ANALISTA DE DESENVOLVIMENTO RURAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7af"),
+	"name" : "ANALISTA DE GESTÃO ADMINISTRATIVA"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7b0"),
+	"name" : "ANALISTA DE GESTÃO GOVERNAMENTAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7b1"),
+	"name" : "Analista De Politicas De Assistencia Social"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7b2"),
+	"name" : "ARMAZENADOR - IQUEGO"
+}
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7b3"), "name" : "ASSESSOR A1" }
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7b4"), "name" : "ASSESSOR A3" }
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7b5"), "name" : "ASSESSOR A4" }
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7b6"), "name" : "ASSESSOR A5" }
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7b7"), "name" : "ASSESSOR A6" }
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7b8"), "name" : "ASSESSOR A7" }
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7b9"), "name" : "ASSESSOR A8" }
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7ba"), "name" : "ASSESSOR A9" }
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7bb"),
+	"name" : "ASSESSOR TÉCNICO M-1"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7bc"),
+	"name" : "ASSISTENTE ADMINISTRATIVO"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7bd"),
+	"name" : "ASSISTENTE DE APOIO ADMINISTRATIVO"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7be"),
+	"name" : "ASSISTENTE DE COMUNICAÇÃO"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7bf"),
+	"name" : "ASSISTENTE DE GESTÃO  ADMINISTRATIVA"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7c0"),
+	"name" : "ASSISTENTE DE GESTÃO ADMINISTRATIVA"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7c1"),
+	"name" : "ASSISTENTE DE MANUTENÇÃO"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7c2"),
+	"name" : "ASSISTENTE DE TRANSPORTES E OBRAS"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7c3"),
+	"name" : "ASSISTENTE INDUSTRIAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7c4"),
+	"name" : "ASSISTENTE OPERACIONAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7c5"),
+	"name" : "ASSISTENTE OPERACIONAL-SOCIAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7c6"),
+	"name" : "AUXILIAR ADMINISTRATIVO (IQUEGO)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7c7"),
+	"name" : "AUXILIAR DE ENFERMAGEM"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7c8"),
+	"name" : "AUXILIAR DE GESTÃO  ADMINISTRATIVA"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7c9"),
+	"name" : "AUXILIAR DE GESTÃO ADMINISTRATIVA"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7ca"),
+	"name" : "AUXILIAR DE SERVIÇOS GERAIS (METROBUS)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7cb"),
+	"name" : "AUXILIAR DE SERVIÇOS GERAIS (SES)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7cc"),
+	"name" : "AUXILIAR INDUSTRIAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7cd"),
+	"name" : "AUXILIAR OPERACIONAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7ce"),
+	"name" : "AUXILIAR TÉCNICO DE SAÚDE"
+}
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7cf"), "name" : "CHAPISTA II" }
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7d0"), "name" : "DACTILOSCOPISTA" }
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7d1"),
+	"name" : "DELEGADO DE POLÍCIA CLASSE ESPECIAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7d2"),
+	"name" : "DELEGADO DE POLÍCIA CLASSE ESPECIAL I"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7d3"),
+	"name" : "DELEGADO DE POLÍCIA DA 1ª CLASSE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7d4"),
+	"name" : "DELEGADO DE POLÍCIA DA 2ª CLASSE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7d5"),
+	"name" : "DELEGADO DE POLÍCIA SUBSTITUTO"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7d6"),
+	"name" : "ELETRICISTA DE AUTOS (METROBUS)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7d7"),
+	"name" : "ESCREVENTE POLICIAL"
+}
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7d8"), "name" : "ESCRITURÁRIO" }
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7d9"),
+	"name" : "ESCRITURÁRIO (METROBUS)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7da"),
+	"name" : "ESCRIVÃO DE POLÍCIA DA 1ª CLASSE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7db"),
+	"name" : "ESCRIVÃO DE POLÍCIA DA 2ª CLASSE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7dc"),
+	"name" : "ESCRIVÃO DE POLÍCIA DA 3ª CLASSE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7dd"),
+	"name" : "ESCRIVÃO DE POLÍCIA DA CLASSE ESPECIAL"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7de"),
+	"name" : "ESCRIVÃO DE POLÍCIA DA CLASSE ESPECIAL I"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7df"),
+	"name" : "FISCAL DE TRANSPORTE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7e0"),
+	"name" : "FISCAL DE TRANSPORTE COLETIVO"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7e1"),
+	"name" : "FISCAL DE TRANSPORTES (METROBUS)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7e2"),
+	"name" : "FOTOCOMPOSITOR IV (AGECOM)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7e3"),
+	"name" : "GESTOR DE PLANEJAMENTO E ORÇAMENTO"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7e4"),
+	"name" : "GESTOR DE TECNOLOGIA DA INFORMAÇÃO"
+}
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7e5"), "name" : "GESTOR PÚBLICO" }
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7e6"),
+	"name" : "LANTERNEIRO (METROBUS)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7e7"),
+	"name" : "LIDER DE ÁREA OU PROJETO"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7e8"),
+	"name" : "MAQUIADOR I (AGECOM)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7e9"),
+	"name" : "MECÂNICO (METROBUS)"
+}
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7ea"), "name" : "MOTORISTA" }
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7eb"),
+	"name" : "MOTORISTA (METROBUS)"
+}
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7ec"), "name" : "OPERADOR" }
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7ed"),
+	"name" : "OPERADOR (METROBUS)"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7ee"),
+	"name" : "PAPILOSCOPISTA POLICIAL DA 1ª CLASSE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7ef"),
+	"name" : "PAPILOSCOPISTA POLICIAL DA 2ª CLASSE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7f0"),
+	"name" : "PAPILOSCOPISTA POLICIAL DA 3ª CLASSE"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7f1"),
+	"name" : "PAPILOSCOPISTA POLICIAL DA CLASSE ESPECIAL"
+}
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7f2"), "name" : "PINTOR DE AUTOS" }
+{ "_id" : ObjectId("6182cd3d38b9fac7ebf0d7f3"), "name" : "PORTEIRO" }
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7f4"),
+	"name" : "TECNICO DE SEGURANÇA DO TRABALHO"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7f5"),
+	"name" : "TÉCNICO EM ENFERMAGEM"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7f6"),
+	"name" : "TÉCNICO EM GESTÃO PÚBLICA"
+}
+{
+	"_id" : ObjectId("6182cd3d38b9fac7ebf0d7f7"),
+	"name" : "TÉCNICO EM GESTÃO PÚBLICA I"
+}
+

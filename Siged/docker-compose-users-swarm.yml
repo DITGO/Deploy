@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  api_users:
+    image: ditgo/2020-2-siged-users_api_users
+    ports:
+      - 3001:3001
+    environment: 
+      PORT: 3001
+    env_file: .env
+    volumes:
+      - ./:/code
+      - node_modules:/code/node_modules
+    networks: 
+      - backend_users
+      - siged_backend
+    depends_on:
+      - db_users
+    deploy:
+      mode: replicated
+      replicas: 3
+      
+  db_users:
+    image: mongo:4.4
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: root-db
+    env_file: .env
+    volumes:
+      - ./db/mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh:ro
+      - ./db/.dbshell:/home/mongodb/.dbshell
+      - mongodb:/data/db
+    networks: 
+      - backend_users
+    deploy:
+      mode: replicated
+      replicas: 3
+      
+volumes: 
+  node_modules:
+  mongodb:
+
+networks: 
+  backend_users:
+  siged_backend:
+    external: true

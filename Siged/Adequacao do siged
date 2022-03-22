@@ -1,0 +1,52 @@
+/2020-2-SiGeD-Users/.env
+
+SECRET=segredo
+DB_USER=api_user
+DB_PASS=api_password
+DB_NAME=api_database
+DB_HOST=db_users
+host=smtp.gmail.com
+port=465
+email=citpcgo@gmail.com
+pass=Cit@2020
+
+2020-2-SiGed-Frontend
+
+/src/Pages/ListDemandsScreen/index.js
+  const getDemandsFromApi = async () => {
+    /* console.log(active, sectorActive); */
+    /* Por default, traz como resultado somente as demandas ativas, */
+    /* de todos os setores, de todas as categorias. */
+    
+2020-2-SiGed-Frontend
+
+src/Components/ModalComp/index.js
+
+        {type === 'Setor' || type === 'Cargos' ? (
+          <Title>
+            Novo
+            {' '}
+            {type}
+          </Title>
+        ) : (
+          <Title>
+            Nova
+            {' '}
+            {type}
+          </Title>
+        )}
+        
+        
+Envio de email ao criar demanda foi comentado porque está gerando erro.
+src/Controllers/DemandController.js 
+
+updatedAt: date,
+    });
+
+    await notifyDemandCreated(clientID, newDemand, token);
+    await scheduleDemandComingAlert(clientID, newDemand, token);
+    // await notifyDemandCreated(clientID, newDemand, token);
+    // await scheduleDemandComingAlert(clientID, newDemand, token);
+
+    return res.json(newDemand);
+  } catch (err) {

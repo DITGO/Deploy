@@ -1,0 +1,55 @@
+docker exec -u 0 -it db_clients /bin/bash
+
+mongo -u "root" -p "password" --authenticationDatabase admin "root-db"
+
+show databases
+
+use clients_database
+
+show collections
+
+db.clients.find().pretty()
+
+db.clients.insert(
+[
+{
+	"userID": "614e05c08cc1e90056ad1206",
+  "name": "Mariana da silva",
+  "cpf": "12352172548",
+  "email": "marianasilva@mp.gov.br",
+  "phone": "995282542",
+  "secondaryPhone": "12542541",
+  "address": "Rua B nº 35-AB, Centro",
+  "office": "614e18607acd2100490329d6",
+  "active": true,
+  "location": "614e0cfaad1b71004a89a754",
+  "history": [{
+    "userID": "614e05c08cc1e90056ad1206",
+    "date": "27/05/2021",
+    "label": "created"
+	}],
+  "features": "614e0e77ad1b71004a89a767",
+  "image": ""
+  },
+	{
+	"userID": "614e05c08cc1e90056ad1206",
+  "name": "Paula Regina",
+  "cpf": "12682542548",
+  "email": "paularegina@mpf.gov.br",
+  "phone": "995282542",
+  "secondaryPhone": "12542541",
+  "address": "Rua B nº 35-AB, Centro",
+  "office": "614e18607acd2100490329d6",
+  "active": true,
+  "location": "614e0cfaad1b71004a89a754",
+  "history": [{
+    "userID": "614e05c08cc1e90056ad1206",
+    "date": "27/05/2021",
+    "label": "created"
+	}],
+  "features": "614e0e77ad1b71004a89a767",
+  "image": ""
+}
+]
+)
+

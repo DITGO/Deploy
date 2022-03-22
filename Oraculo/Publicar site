@@ -1,0 +1,21 @@
+GitHub/2021.1-Oraculo-Profile# yarn (para instalar as dependencias)
+se der erro "yarn config set ignore-engines true"
+GitHub/2021.1-Oraculo-Profile# yarn run all
+
+GitHub/2021.1-Oraculo-Registros# yarn
+GitHub/2021.1-Oraculo-Registros# yarn run all
+
+GitHub/2021.1-Oraculo-Tags# yarn
+GitHub/2021.1-Oraculo-Tags# docker-compose up --build -d
+
+GitHub/2021.1-Oraculo-FrontEnd# docker-compose up --build -d
+
+docker logs -f oraculo-registros
+
+para limpar
+docker-compose down
+docker system prune -a
+docker volume rm $(docker volume ls -q)
+docker volume rm $(docker volume ls -q)
+
+

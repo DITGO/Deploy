@@ -1,0 +1,63 @@
+Criar o arquivo .env utilizando o env-reference
+Criar a chave secreta em phyton
+instalar o phyton e django
+ubuntu 20 já vem com python3 instalado
+sudo apt update
+sudo apt install python3-django
+
+docker-compose up --build -d
+
+Archieves porta 8002
+Rodar o comando para gerar a chave a ser incluida no .env
+python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
+# NO VERIFY_TOKEN PEGAR SEU IPV4 PELAS CONFIGS DO LINUX (hostname -I)
+
+.env
+SECRET_KEY = i)sv0=^cimnnj--*)7%04iq*_z=azp4ixf#u9x=3=4vq1rh6uo
+
+DEBUG=True
+
+VERIFY_TOKEN=http://192.168.0.112:8001/
+
+POSTGRES_HOST=db_archives
+POSTGRES_DB=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=password
+
+Profile porta 8001
+Rodar o comando para gerar a chave a ser incluida no .env
+python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
+
+.env
+SECRET_KEY = m3a%$!&&k_)%-8$)oi(j$p43+#2amfnwmtwoxd^-s@6s=p!yi1
+
+DEBUG=True
+
+TEST_PASSWORD = ANY_STRING
+
+POSTGRES_HOST=db
+POSTGRES_DB=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=password
+
+FrontEnd porta 3000
+Criar o arquivo .env utilizando o env-reference (manter o conteudo como esta)
+
+.env
+REACT_APP_URL_API_PROFILE="http://0.0.0.0:8001/"
+REACT_APP_URL_API_ARCHIVES="http://0.0.0.0:8002/"
+
+No navegador acesse o link para cadastrar usuario de acesso ao sistema
+http://0.0.0.0:8001/users/register
+
+Popular o banco
+# cd 2021.1-PC-GO1-Archieves
+# cd scripts
+# ls
+# docker ps -a (pegar o ID do serviço archives_web_archives)
+# docker exec -it ID_DO_CONTAINER sh
+# cd scripts
+# ls
+# python3 public_worker_script.py
+# Relacaoservidores.csv
+
