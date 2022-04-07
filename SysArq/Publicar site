@@ -12,6 +12,9 @@ docker-compose up --build -d
 Incluir no nginx
 location / {
   proxy_pass http://10.6.52.10:8002;
+  add_header 'Access-Control-Allow-Origin'  '*' always;
+  add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS, HEAD';
+  add_header 'Access-Control-Allow-Headers' 'Authorization, Origin, X-Requested-With, Content-Type, Accept';
 }
 
 Rodar o comando para gerar a chave a ser incluida no .env
@@ -35,7 +38,7 @@ POSTGRES_PASSWORD=password
 Incluir no nginx
 location / {
   proxy_pass http://10.6.52.9:8001;
-  add_header 'Access-Control-Allow-Origin'  '*';
+  add_header 'Access-Control-Allow-Origin'  '*' always;
   add_header 'Access-Control-Allow-Methods' 'POST, OPTIONS';
   add_header 'Access-Control-Allow-Headers' 'Authorization, Origin, X-Requested-With, Content-Type, Accept';
 }
