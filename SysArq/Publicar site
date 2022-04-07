@@ -7,7 +7,13 @@ sudo apt install python3-django
 
 docker-compose up --build -d
 
-Archieves porta 8002
+-------------Archieves porta 8002
+
+Incluir no nginx
+location / {
+  proxy_pass http://10.6.52.10:8002;
+}
+
 Rodar o comando para gerar a chave a ser incluida no .env
 python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
 # NO VERIFY_TOKEN PEGAR SEU IPV4 PELAS CONFIGS DO LINUX (hostname -I)
@@ -24,7 +30,16 @@ POSTGRES_DB=postgres
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=password
 
-Profile porta 8001
+--------------Profile porta 8001
+
+Incluir no nginx
+location / {
+  proxy_pass http://10.6.52.9:8001;
+  add_header 'Access-Control-Allow-Origin'  '*';
+  add_header 'Access-Control-Allow-Methods' 'POST, OPTIONS';
+  add_header 'Access-Control-Allow-Headers' 'Authorization, Origin, X-Requested-With, Content-Type, Accept';
+}
+
 Rodar o comando para gerar a chave a ser incluida no .env
 python3 -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
 
