@@ -78,7 +78,7 @@ Popular o banco
 # cd 2021.1-PC-GO1-Archieves
 # cd scripts
 # ls
-# docker cp Relacaoservidores.csv 20211-pc-go1-archives_db_archives_1:/home
+# docker cp Relacaoservidores.csv 20211-pc-go1-archives_web_archives_1:/code/scripts
 # docker ps -a (pegar o ID do serviço archives_web_archives)
 # docker exec -it ID_DO_CONTAINER sh
 # cd scripts
