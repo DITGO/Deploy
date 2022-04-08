@@ -82,6 +82,7 @@ Popular o banco
 # docker exec -it ID_DO_CONTAINER sh
 # cd scripts
 # ls
+# docker cp Relacaoservidores.csv 20211-pc-go1-archives_db_archives_1:/home
 # python3 public_worker_script.py
 # Relacaoservidores.csv
 
