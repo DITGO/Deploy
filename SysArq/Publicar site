@@ -10,6 +10,9 @@ docker-compose up --build -d
 -------------Archieves porta 8002
 
 Incluir no nginx
+
+default_type      application/json;
+
 location / {
   proxy_pass http://10.6.52.10:8002;
   add_header 'Access-Control-Allow-Origin'  '*' always;
@@ -36,6 +39,9 @@ POSTGRES_PASSWORD=password
 --------------Profile porta 8001
 
 Incluir no nginx
+
+default_type      application/json;
+
 location / {
   proxy_pass http://10.6.52.9:8001;
   add_header 'Access-Control-Allow-Origin'  '*' always;
