@@ -1,0 +1,5 @@
+citpcgo@zohomail.com
+Dit@2020
+PORT=465
+HOST=smtp.zoho.com
+PASSWORD=6fUwMkdgQU99
