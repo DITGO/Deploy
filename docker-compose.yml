@@ -1,72 +1,31 @@
-version: '3.8'
+version: '3'
 
 services:
-  frontend:
-    image: 'alectrion/repo:front'
-    container_name: alectrion_frontend
-    # depends_on:
-    #   - alectrion_gateway
+  # postgres db
+  db:
+    # image: postgres:latest
+    image: postgres:alpine
+    restart: always
     environment:
-      - REACT_APP_GATEWAY_URL=http://127.0.0.1:4000
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
     ports:
-      - 3000:3000
-    command: "yarn dev"
-  
-  user_db:
-    image: postgres
+      - 5432:5432
     volumes:
-      - user-data:/var/lib/postgresql/data
-    environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=user
+      - ./postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
 
-  user_api:
-    image: 'alectrion/repo:user'
-    container_name: user_api
-    # depends_on:
-    #   - user_db
-    environment:
-      - DB_URL=http://user:postgres@user_db:5432/user
-      - SECRET_JWT="95dbfe2790ed50cedae427abc8a49aef"
-    ports:
-      - 4001:4001
-    command:  bash -c "yarn && yarn migration:run && yarn dev"
 
-  equipment_db:
-    image: postgres
-    volumes:
-      - equipment-data:/var/lib/postgresql/data
-    environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=equipment
-
-  equipment_api:
-    image: 'alectrion/repo:equipment'
-    container_name: alectrion_equipment_api
+  # Check if postgres is ready
+  wait-for-db:
+    image: alpine:latest
+    command: /bin/sh -c "apk add --no-cache postgresql-client && until pg_isready -h db -p 5432 -U postgres; do sleep 1; done;"
     depends_on:
-      - equipment_db
-    environment:
-      - DB_URL=http://user:postgres@equipment_db:5432/equipment
-      - SECRET_JWT=95dbfe2790ed50cedae427abc8a49aef
-    ports:
-      - 4002:4002
-    command:  bash -c "yarn && yarn migration:run && yarn dev"
-  gateway:
-    image: 'alectrion/repo:gateway'
-    container_name: alectrion_gateway
-    # depends_on:
-    #   - alectrion_equipment_api
-    #   - alectrion_user_api
-    environment:
-      - USER_URL=http://user_api:4001
-      - EQUIP_URL=http://equipment_api:4002
-      - PORT=4000
-    ports:
-      - 4000:4000
-    command:  bash -c "yarn dev"
-
-volumes:
-  user-data:
-  equipment-data:
+      db:
+        condition: service_healthy
