@@ -1,0 +1,36 @@
+* Implantação local
+
+baixar o repositorio 2022-1-schedula-deploy
+dentro do diretorio 2022-1-schedula-deploy crie o arquivo .env
+
+APP_PORT_DETALHADOR=5001
+APP_PORT_GERENCIADOR_LOCALIDADES=5002
+APP_PORT_GESTOR=5000
+GERENCIADOR_DE_LOCALIDADES_URL=http://gerenciador-de-localidades:5002
+DATABASE_URL=postgresql+psycopg2://postgres:postgres@db:5432
+DB_PORT=5432
+DB_HOST=db
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+JWT_SECRET_KEY=secret
+
+no arquivo docker-compose.yml altere o nome do arquivo stack.env para .env
+
+em volumes:
+/home/diretorio-onde-esta-o-projeto/2022-1-schedula-deploy/database:/docker-entrypoint-initdb.d
+
+rodar o docker-compose up --build -d
+
+baixar o repositorio 2022-1-schedula-front
+
+dentro do diretorio 2022-1-schedula-front rodar:
+
+yarn install
+
+yarn dev
+
+yarn build e yarn start
+
+* Implantação distribuida
